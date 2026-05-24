@@ -1,0 +1,6 @@
+{
+  "name": "HCB Convection",
+  "description": "Professional T-Shirt Maker and Convection based in Indonesia. High quality apparel, custom design, and durable materials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

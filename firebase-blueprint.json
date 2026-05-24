@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "CatalogList": {
+      "title": "Catalog List",
+      "description": "List of catalog items",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" }
+      }
+    },
+    "PricelistList": {
+      "title": "Pricelist List",
+      "description": "List of prices",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" }
+      }
+    },
+    "GalleryList": {
+      "title": "Gallery List",
+      "description": "List of gallery items",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" }
+      }
+    },
+    "TestimoniesList": {
+      "title": "Testimonies List",
+      "description": "List of testimonies",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" }
+      }
+    },
+    "Portofolio": {
+      "title": "Portofolio",
+      "description": "Portofolio text info",
+      "type": "object",
+      "properties": {}
+    },
+    "FaqsList": {
+      "title": "FAQs List",
+      "description": "List of faqs",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" }
+      }
+    },
+    "Contact": {
+      "title": "Contact",
+      "description": "Contact info",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "firestore": {
+    "/appData/{docId}": {
+      "schema": {
+        "$ref": "#/entities/CatalogList"
+      },
+      "description": "Stores site data sections."
+    }
+  }
+}
