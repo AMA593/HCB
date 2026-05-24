@@ -13,7 +13,7 @@ export default function Admin() {
   const [activeTab, setActiveTab] = useState<'gallery' | 'catalog' | 'portofolio' | 'contact' | 'faqs'>('catalog');
   const [user, setUser] = useState(auth.currentUser);
 
-  const ALLOWED_EMAILS = ['ahmadmaiyah35@gmail.com', 'emailkedua@gmail.com'];
+  const ALLOWED_EMAILS = ['ahmadmaiyah35@gmail.com', 'kurniaulya72@gmail.com'];
 
   React.useEffect(() => {
     const unsub = auth.onAuthStateChanged(u => {
